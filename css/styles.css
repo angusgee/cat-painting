@@ -554,20 +554,21 @@ video {
   --tw-contain-style:  ;
 }
 
-.bg-red-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+* {
+  box-sizing: border-box;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+body {
+  background-color: #c9d2fc;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
-.underline {
-  text-decoration-line: underline;
+.cat-head {
+  width: 205px;
+  height: 180px;
+  border: 1px solid #000;
+  border-radius: 46%;
+  background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+  position: relative;
+  top: 100px;
+  left: 100px;
 }
