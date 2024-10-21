@@ -22,13 +22,8 @@ main {
     background: linear-gradient(#5e5e5e 85%, #45454f 100%);
     position: absolute;
     top: 0;
-}
-
-.box {
-    width: 200px;
-    height: 600px;
-    background-color: #000;
-    position: absolute;
-    top: 800px;
-    left: 650px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
